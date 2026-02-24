@@ -1,3 +1,11 @@
+  feature/UC5-InlineArray
+public class OOPSBannerApp {
+
+    public static void main(String[] args) {
+
+        // Inline Array Initialization with String.join()
+        String[] banner = {
+
  feature/UC1-PrintOOPS
 
 
@@ -16,6 +24,7 @@ public class OOPSBannerApp {
         // Store all banner lines inside an array
         String[] banner = {
 
+            main
                 String.join(" ",
                         "  *****  ",
                         "  *****  ",
@@ -58,6 +67,12 @@ public class OOPSBannerApp {
                         " *       ",
                         "  *****  ")
         };
+
+         feature/UC5-InlineArray
+        // Enhanced for-loop to print banner
+        for (String line : banner) {
+            System.out.println(line);
+        }
 
         // Use loop instead of multiple print statements
         for (String line : banner) {
