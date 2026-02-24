@@ -1,3 +1,14 @@
+ feature/UC1-PrintOOPS
+
+
+public class OOPSBannerApp {
+
+  
+    public static void main(String[] args) {
+
+       
+        System.out.println("OOPS");
+
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
@@ -52,5 +63,6 @@ public class OOPSBannerApp {
         for (String line : banner) {
             System.out.println(line);
         }
+        main
     }
 }
