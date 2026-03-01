@@ -1,55 +1,23 @@
-public class OOPSBannerApp {
-
+public class OOPSArray{
     public static void main(String[] args) {
 
-        // Store all banner lines inside an array
-        String[] banner = {
-
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        "  ****** ",
-                        "  *****  "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * ",
-                        " *       "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " ******  ",
-                        "  *****  "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *       ",
-                        "       * "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *       ",
-                        " *     * "),
-
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        " *       ",
-                        "  *****  ")
+        String[] lines = {
+            " ***     ***     *****   ***** ",
+			
+            "*   *   *   *    *    *  *     ",
+			
+            "*   *   *   *    *    *  *     ",
+			
+            "*   *   *   *    *****   ***** ",
+			
+            "*   *   *   *    *           * ",
+			
+            "*   *   *   *    *           * ",
+			
+            " ***     ***     *       ***** "
         };
 
-        // Use loop instead of multiple print statements
-        for (String line : banner) {
+        for (String line : lines) {
             System.out.println(line);
         }
     }
