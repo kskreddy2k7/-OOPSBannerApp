@@ -1,5 +1,7 @@
 public class OOPSstatic {
 
+ dev
+
     // Pattern for letter O
     public static String[] getOPattern() {
         return new String[] {
@@ -56,3 +58,4 @@ public class OOPSstatic {
         }
     }
 }
+ main
