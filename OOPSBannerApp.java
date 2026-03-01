@@ -1,83 +1,27 @@
-  feature/UC5-InlineArray
-public class OOPSBannerApp {
+public class OOPSArrayInit {
 
     public static void main(String[] args) {
 
-        // Inline Array Initialization with String.join()
-        String[] banner = {
-
- feature/UC1-PrintOOPS
-
-
-public class OOPSBannerApp {
-
-  
-    public static void main(String[] args) {
-
-       
-        System.out.println("OOPS");
-
-public class OOPSBannerApp {
-
-    public static void main(String[] args) {
-
-        // Store all banner lines inside an array
-        String[] banner = {
-
-            main
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        "  ****** ",
-                        "  *****  "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * ",
-                        " *       "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " ******  ",
-                        "  *****  "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *       ",
-                        "       * "),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *       ",
-                        " *     * "),
-
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        " *       ",
-                        "  *****  ")
+        // Declare and initialize array inline using String.join()
+        String[] lines = {
+            String.join(" ", " *** ", " *** ", " *****", " *****"),
+			
+            String.join(" ", "*   *", "*   *", "*    *", "*     "),
+			
+            String.join(" ", "*   *", "*   *", "*    *", "*     "),
+			
+            String.join(" ", "*   *", "*   *", "***** ", "***** "),
+			
+            String.join(" ", "*   *", "*   *", "*     ", "    * "),
+			
+            String.join(" ", "*   *", "*   *", "*     ", "    * "),
+			
+            String.join(" ", " *** ", " *** ", "*     ", "***** ")
         };
 
-         feature/UC5-InlineArray
-        // Enhanced for-loop to print banner
-        for (String line : banner) {
+        // Loop to print banner
+        for (String line : lines) {
             System.out.println(line);
         }
-
-        // Use loop instead of multiple print statements
-        for (String line : banner) {
-            System.out.println(line);
-        }
-        main
     }
 }
