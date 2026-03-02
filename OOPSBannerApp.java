@@ -1,5 +1,5 @@
-public class OOPSstatic {
 
+ dev
  dev
 
     // Pattern for letter O
@@ -15,19 +15,11 @@ public class OOPSstatic {
         };
     }
 
-    // Pattern for letter P
-    public static String[] getPPattern() {
-        return new String[] {
-            "**** ",
-            "*   *",
-            "*   *",
-            "**** ",
-            "*    ",
-            "*    ",
-            "*    "
-        };
-    }
+ main
 
+public static void main(String[] args) {
+
+ dev
     // Pattern for letter S
     public static String[] getSPattern() {
         return new String[] {
@@ -57,5 +49,15 @@ public class OOPSstatic {
             );
         }
     }
+}
+ main
+
+    System.out.println("  *****   *****   ******   *****  ");
+    System.out.println(" *     * *     *  *     *  *      ");
+    System.out.println(" *     * *     *  *     *  *      ");
+    System.out.println(" *     * *     *  ******   *****  ");
+    System.out.println(" *     * *     *  *            *  ");
+    System.out.println(" *     * *     *  *            *  ");
+    System.out.println("  *****   *****   *        *****  ");
 }
  main
